@@ -1,9 +1,108 @@
-@font-face { font-family: "Playfair Display"; src: url("fonts/playfair-display-700.woff2") format("woff2"); font-weight: 700; }
-:root { --font-naglowki: "Playfair Display", Georgia, serif; }
-h1, h2 { font-family: var(--font-naglowki); }
-.hero { position: relative; }
-.plakietka { position: absolute; top: 3.3rem; left: 8rem; background: #d62828; color: #fff; padding: .4rem .8rem; font-weight: 700; border-radius: .3rem; }
-@media (min-width: 768px) { .plakietka { top: .5rem; left: auto; right: 1rem; } }
-.btn-zapis { display: inline-block; box-sizing: border-box; width: 36px; height: 28px; padding: 0; line-height: 28px; }
-.baner-partnerzy { box-sizing: border-box; width: 520px; background: #f1faee; border: 1px solid #a8dadc; padding: 1rem; }
-.stopka { background: #ffffff; color: #9e9e9e; }
+
+/* ========================================
+   1. KOLORY I TYPOGRAFIA – PUPILCARE
+======================================== */
+
+:root {
+    /* Kolory */
+    --bs-primary: #52796F;
+    --bs-primary-rgb: 82, 121, 111;
+
+    --bs-secondary: #CAD2C5;
+    --bs-cta: #365B50;
+    --bs-text: #26332E;
+
+    /* Kroje pisma */
+    --font-naglowki: "Poppins", sans-serif;
+    --font-tekst: "Nunito Sans", sans-serif;
+  
+}
+
+/* Nagłówki */
+h1,
+h2,
+h3,
+h4 {
+    font-family: var(--font-naglowki);
+}
+
+/* Tekst główny */
+body {
+    font-family: var(--font-tekst);
+    color: var(--bs-text);
+}
+
+
+/* ========================================
+   3. SEKCJA HERO
+======================================== */
+
+.hero {
+    position: relative;
+}
+
+/* ========================================
+   4. PLAKIETKA
+======================================== */
+
+.plakietka {
+    position: absolute;
+    top: 3.3rem;
+    left: 8rem;
+
+    background: #d62828;
+    color: #ffffff;
+
+    padding: 0.4rem 0.8rem;
+    font-weight: 700;
+    border-radius: 0.3rem;
+}
+
+/* Responsywność plakietki */
+
+@media (min-width: 768px) {
+    .plakietka {
+        top: 0.5rem;
+        left: auto;
+        right: 1rem;
+    }
+}
+
+/* ========================================
+   5. PRZYCISK ZAPISU
+======================================== */
+
+.btn-zapis {
+    display: inline-block;
+    box-sizing: border-box;
+
+    width: 36px;
+    height: 28px;
+
+    padding: 0;
+    line-height: 28px;
+}
+
+/* ========================================
+   6. BANER PARTNERZY
+======================================== */
+
+.baner-partnerzy {
+    box-sizing: border-box;
+
+    width: 520px;
+
+    background: #f1faee;
+    border: 1px solid #a8dadc;
+
+    padding: 1rem;
+}
+
+/* ========================================
+   7. STOPKA
+======================================== */
+
+.stopka {
+    background: #ffffff;
+    color: #9e9e9e;
+}
