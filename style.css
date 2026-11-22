@@ -1,0 +1,9 @@
+@font-face { font-family: "Playfair Display"; src: url("fonts/playfair-display-700.woff2") format("woff2"); font-weight: 700; }
+:root { --font-naglowki: "Playfair Display", Georgia, serif; }
+h1, h2 { font-family: var(--font-naglowki); }
+.hero { position: relative; }
+.plakietka { position: absolute; top: 3.3rem; left: 8rem; background: #d62828; color: #fff; padding: .4rem .8rem; font-weight: 700; border-radius: .3rem; }
+@media (min-width: 768px) { .plakietka { top: .5rem; left: auto; right: 1rem; } }
+.btn-zapis { display: inline-block; box-sizing: border-box; width: 36px; height: 28px; padding: 0; line-height: 28px; }
+.baner-partnerzy { box-sizing: border-box; width: 520px; background: #f1faee; border: 1px solid #a8dadc; padding: 1rem; }
+.stopka { background: #ffffff; color: #9e9e9e; }
