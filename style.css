@@ -86,10 +86,6 @@ footer a {
   background-color: #fff;
 }
 
-.card-title {
-  font-size: 1.05rem;
-}
-
 footer {
   background-color: var(--pupilcare-secondary);
   color: var(--pupilcare-text);
