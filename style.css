@@ -73,6 +73,13 @@ footer a {
   justify-content: center;
 }
 
+.btn-outline-primary {
+  --bs-btn-color: var(--pupilcare-cta);
+  --bs-btn-border-color: var(--pupilcare-cta);
+  --bs-btn-hover-bg: var(--pupilcare-cta);
+  --bs-btn-hover-border-color: var(--pupilcare-cta);
+}
+
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
