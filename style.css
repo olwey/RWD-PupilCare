@@ -43,9 +43,22 @@ footer a {
   align-items: center;
 }
 
+.navbar-toggler {
+  justify-content: center;
+}
+
 /* Sekcja 4: Własne komponenty */
 .navbar {
   background-color: var(--pupilcare-secondary);
+}
+
+.navbar-toggler {
+  border-color: var(--pupilcare-text);
+  color: var(--pupilcare-text);
+}
+
+.navbar-nav .nav-link {
+  color: var(--pupilcare-text);
 }
 
 .navbar-nav .nav-link.active {
