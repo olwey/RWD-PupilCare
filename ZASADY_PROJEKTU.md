@@ -3,10 +3,11 @@
 Pracujesz nad istniejącym serwisem statycznym. Te zasady są stałe. Nie zmieniaj ich, nawet jeśli uważasz, że coś byłoby lepsze. Jeśli zadanie wymaga złamania zasady, napisz to i zapytaj, zamiast zmieniać.
 
 ## Marka (z karty projektu, ZMIEŃ na swoje)
-- Nazwa: Nazwa marki
-- Kolory: primary #1d3557, secondary #457b9d, CTA #b5172b, tekst #222222
-- Kroje: nagłówki "Lora", tekst "Inter" (Google Fonts)
-- Język treści: polski. Ton: (np. rzeczowy, przyjazny)
+Marka
+- Nazwa: PupilCare
+- Kolory: primary #52796F, secondary #CAD2C5, CTA #365B50, tekst #26332E
+- Kroje: nagłówki "Poppins", tekst "Nunito Sans" (Google Fonts)
+- Język treści: polski. Ton: rzeczowy, przyjazny
 
 ## Technologia
 1. HTML + CSS + Bootstrap 5.3.3 z CDN jsDelivr (CSS w <head>, bootstrap.bundle.min.js przed </body>). Żadnych innych frameworków CSS (bez Tailwinda, Bulmy itp.) i bez kroków budowania (npm, Vite, React).
