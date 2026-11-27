@@ -43,6 +43,7 @@ footer a {
   align-items: center;
 }
 
+.btn,
 .navbar-toggler {
   justify-content: center;
 }
