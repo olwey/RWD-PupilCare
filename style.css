@@ -97,3 +97,10 @@ footer {
   background-color: var(--pupilcare-secondary);
   color: var(--pupilcare-text);
 }
+
+/* Aktywna pozycja w menu panelu klienta w kolorach marki */
+.list-group-item.active {
+  --bs-list-group-active-bg: var(--pupilcare-cta);
+  --bs-list-group-active-border-color: var(--pupilcare-cta);
+  --bs-list-group-active-color: #fff;
+}
